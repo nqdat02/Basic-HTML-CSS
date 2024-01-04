@@ -1,0 +1,59 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Neurial Grotesk', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    padding: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Ca2-6/back.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.column {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('Ca2-6/poleDone.png');
+}
+
+#player {
+    position: absolute;
+    left: 250px;
+    bottom: 0;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
+
+button {
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #2ecc71;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    border-radius: 70px;
+}
